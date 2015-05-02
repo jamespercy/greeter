@@ -5,7 +5,7 @@
   "main": "greeter.js",
   "private": true,
   "scripts": {
-    "start": "node greeter"
+    "start": "node greeter.js"
   },
   "keywords": [
     "greets",
@@ -14,6 +14,7 @@
   "author": "james percy",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "express": "^4.12.3"
+    "express": "^4.12.3",
+    "winston": "~1.0.0"
   }
 }
