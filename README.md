@@ -1,2 +1,2 @@
 # greeter
-a silly app that getter it's self
+a silly app that greets it's self
