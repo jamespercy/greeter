@@ -1,2 +1,2 @@
 # greeter
-playing around with docker clustering
+a silly app that getter it's self
