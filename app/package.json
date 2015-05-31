@@ -14,8 +14,10 @@
   "author": "james percy",
   "license": "BSD-2-Clause",
   "dependencies": {
+    "elastical": "0.0.13",
     "express": "^4.12.3",
+    "request": "~2.55.0",
     "winston": "~1.0.0",
-    "request": "~2.55.0"
+    "winston-elasticsearch": "^0.1.1"
   }
 }

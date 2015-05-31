@@ -1,0 +1,15 @@
+docker build -t jamespercy/greeter:v1 app
+docker run -d -t -p 3000:3000 -v /var/log/greeter:/app/logs jamespercy/greeter:v1
+
+lumberjack port 5000
+sudo sublime sudo vi /etc/logstash/conf.d/01-lumberjack-input.conf
+sudo sublime /etc/logstash/conf.d/10-syslog.conf
+sudo sublime /etc/logstash/conf.d/30-lumberjack-output.conf
+
+
+Elasticsearch running on port 9200
+
+process.env.HOSTNAME
+
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
